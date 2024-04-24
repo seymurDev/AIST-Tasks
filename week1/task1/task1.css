@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
     background-color: #a3a3a3;
@@ -42,7 +42,8 @@ body {
 #dateContent{
     font-size: 50px;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #timeContent{
     display: flex;
