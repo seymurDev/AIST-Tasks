@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task3.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Week 1: Task 3</h1>
+    <div style="display: flex;align-items: center;">
+        <div>
+            <div>
+                <label for="firstDate">Date 1:</label>
+                <input type="date" id="firstDate" name="firstDate" >
+            </div>
+            <div class="secDiv">
+                <label for="secondDate">Date 2:</label>
+                <input type="date" id="secondDate" name="secondDate">
+            </div>
+        </div>
+        <button onclick="calculateDate()" style="margin-left:20px; height: 30px;">Calculate</button>
+    </div>
+    <h2>RESULT:<span id="result"> il, ay, gün</span></h2>
+    <script src="./task3.js"></script>
+</body>
+</html>
