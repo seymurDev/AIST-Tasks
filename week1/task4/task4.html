@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task4.css">
+    <title>Number Guess Game</title>
+</head>
+<body>
+    <h1>Number Guess Game</h1>
+    <button onclick="startGame()" id="start">Start</button>
+    <button onclick="restartGame()" id="restart">Restart</button>
+    <div  id="console">
+        <h1 style="margin-top: 60px;">Please keep a number in maind</h1>
+        <div style="margin-top: 40px;">
+            <button onclick="higher()" class="btn" id="higher">Higher</button>
+            <button onclick="correct()" class="btn" id="correct">Correct</button>
+            <button onclick="lower()" class="btn" id="lower">Lower</button>
+        </div>
+        <h2>PC guess:<span id="guessCurrent"></span></h2>
+        <h2>PC guesses:<span id="guessArr"></span></h2>
+    </div>
+    <h1 style="margin-top: 100px;" id="usrResult">User's number:<span id="usrNum"></span></h1>
+
+    <script src="./task4.js"></script>
+</body>
+</html>
