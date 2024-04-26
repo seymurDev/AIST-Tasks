@@ -12,15 +12,16 @@
         <div>
             <div>
                 <label for="firstDate">Date 1:</label>
-                <input type="date" id="firstDate" name="firstDate" >
+                <input type="text" id="firstDate" placeholder="DD,MM,YYYY" name="firstDate" >
             </div>
             <div class="secDiv">
                 <label for="secondDate">Date 2:</label>
-                <input type="date" id="secondDate" name="secondDate">
+                <input type="text" id="secondDate" placeholder="DD,MM,YYYY" name="secondDate">
             </div>
         </div>
         <button onclick="calculateDate()" style="margin-left:20px; height: 30px;">Calculate</button>
     </div>
+    <h1 id="validationMessage"></h1>
     <h2>RESULT:<span id="result"> il, ay, gün</span></h2>
     <script src="./task3.js"></script>
 </body>
