@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: midnightblue;
+    margin: 0;
+    margin-left: 30px;
+}
+.white-bg{
+
+}
+.dark-bg{
+  background-color: midnightblue;
+  color: white;
+}
+.form-check-input{
+    margin-right: 20px;
+    scale: 1.5 !important;
+  }
