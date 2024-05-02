@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    background-color: #a3a3a3;
+    margin: 0;
+    margin-left: 30px;
+}
+h1{
+    margin-bottom: 20px;
+}
+#main{
+    position: relative;
+    width: max-content;
+}
+#todos{
+    margin-top: 20px;
+    position: relative;
+    
+}
+svg{
+    color: red;
+    margin-right: 5px;
+    cursor: pointer;
+    scale: 1.2;
+}
+.todo{
+    position: relative;
+    margin: 0;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    background-color: white;
+    padding: 0;
+    align-items: center;
+}
+.check{
+    margin: 10px 5px;
+}
+.todoItem{
+    display: flex;
+    align-items: center;
+}
+.todoText{
+    padding: 0;
+    margin: 0;
+}
+.completed{
+    text-decoration: line-through;
+}
