@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: midnightblue;
+    margin: 0;
+    margin-left: 30px;
+}
+#maincard{
+    margin-bottom: 30px;
+}
+#latest{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
