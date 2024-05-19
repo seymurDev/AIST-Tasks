@@ -1,0 +1,8 @@
+API TMDB
+API_KEY=2fdc0a8f8d251ef725972ec298a5c23f
+SEARCH LINK= https://api.themoviedb.org/3/search/movie?query=Titanic&api_key=2fdc0a8f8d251ef725972ec298a5c23f
+PHOTO LINK= https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg
+
+
+
+
